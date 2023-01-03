@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Posts about rust | Marcelo Tournier</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="canonical" href="https://marcelotournier.github.io/categories/rust/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-expand-md static-top mb-4
+navbar-dark
+bg-dark
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href="../../">
+
+            <span id="blog-title">Marcelo Tournier</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a href="../blog/" class="nav-link">Blog</a>
+                </li>
+<li class="nav-item">
+<a href="../code/" class="nav-link">Code</a>
+                </li>
+<li class="nav-item">
+<a href="../../" class="nav-link">About</a>
+                </li>
+<li class="nav-item">
+<a href="https://www.linkedin.com/in/marcelotournier/" class="nav-link">LinkedIn</a>
+                </li>
+<li class="nav-item">
+<a href="https://github.com/marcelotournier" class="nav-link">Github</a>
+
+                
+            </li>
+</ul>
+<ul class="navbar-nav navbar-right">
+<li>
+            </li>
+<li class="nav-item"><a href="../../pt_br/" rel="alternate" hreflang="pt_br" class="nav-link">Português</a></li>
+
+                
+                    
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+
+    <header><h1>Posts about rust</h1>
+        <div class="metadata">
+            
+
+            
+
+        </div>
+    </header><div class="postindex">
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="../../blog/rust-in-jupyter-notebooks/" class="u-url">How to add Rust support in Jupyter notebooks</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Marcelo Tournier
+            </span></p>
+            <p class="dateline">
+            <a href="../../blog/rust-in-jupyter-notebooks/" rel="bookmark">
+            <time class="published dt-published" datetime="2023-01-03T07:01:36-05:00" itemprop="datePublished" title="2023-01-03 07:01">2023-01-03 07:01</time></a>
+            </p>
+                <p class="commentline">
+    
+    <a href="../../blog/rust-in-jupyter-notebooks/#disqus_thread" data-disqus-identifier="cache/posts/rust-in-jupyter-notebooks.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div class="code"><pre class="code literal-block"><span class="ch">#!/bin/bash</span>
+<span class="c1"># Adds Rust lang support in Jupyter notebooks</span>
+<span class="c1"># Ref: https://github.com/google/evcxr</span>
+
+<span class="c1"># Requirements : Jupyter already installed. If you need it, go to "https://www.anaconda.com/products/distribution"</span>
+
+<span class="c1"># Install Rust:</span>
+curl<span class="w"> </span>--proto<span class="w"> </span><span class="s1">'=https'</span><span class="w"> </span>--tlsv1.2<span class="w"> </span>-sSf<span class="w"> </span>https://sh.rustup.rs<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
+
+<span class="c1"># Install notebook kernel:</span>
+cargo<span class="w"> </span>install<span class="w"> </span>evcxr_jupyter
+evcxr_jupyter<span class="w"> </span>--install
+
+<span class="c1"># Stop and Restart the Jupyter server</span>
+<span class="c1"># or in the browser, logoff and login your Jupyter session again</span>
+</pre></div>
+    </div>
+    </article>
+</div>
+
+
+
+    
+       <script>var disqus_shortname="marcelo-tournier";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer">
+            Contents © 2023         <a href="mailto:marcelo@inova.life">Marcelo Tournier</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    </script>
+</body>
+</html>
