@@ -96,22 +96,22 @@ bg-dark
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <div class="code"><pre class="code literal-block"><span class="ch">#!/bin/bash</span>
+    <pre class="code literal-block"><span class="ch">#!/bin/bash</span>
 <span class="c1"># Adds Rust lang support in Jupyter notebooks</span>
 <span class="c1"># Ref: https://github.com/google/evcxr</span>
 
 <span class="c1"># Requirements : Jupyter already installed. If you need it, go to "https://www.anaconda.com/products/distribution"</span>
 
 <span class="c1"># Install Rust:</span>
-curl<span class="w"> </span>--proto<span class="w"> </span><span class="s1">'=https'</span><span class="w"> </span>--tlsv1.2<span class="w"> </span>-sSf<span class="w"> </span>https://sh.rustup.rs<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
+curl --proto <span class="s1">'=https'</span> --tlsv1.2 -sSf https://sh.rustup.rs <span class="p">|</span> sh
 
 <span class="c1"># Install notebook kernel:</span>
-cargo<span class="w"> </span>install<span class="w"> </span>evcxr_jupyter
-evcxr_jupyter<span class="w"> </span>--install
+cargo install evcxr_jupyter
+evcxr_jupyter --install
 
 <span class="c1"># Stop and Restart the Jupyter server</span>
 <span class="c1"># or in the browser, logoff and login your Jupyter session again</span>
-</pre></div>
+</pre>
     </div>
     </article>
 </div>
@@ -119,7 +119,7 @@ evcxr_jupyter<span class="w"> </span>--install
 
 
     
-       <script>var disqus_shortname="marcelo-tournier";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         <br>© 2023 </center>
+       <script>var disqus_shortname="marcelo-tournier";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         <br>© 2024 </center>
             
             
         </footer>
@@ -134,3 +134,4 @@ evcxr_jupyter<span class="w"> </span>--install
     </script>
 </body>
 </html>
+
