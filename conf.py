@@ -24,7 +24,7 @@ SITE_URL = "https://marcelotournier.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "/categories/blog/" # "https://marcelotournier.github.io/"
-BLOG_EMAIL = "marcelo@inova.life"
+BLOG_EMAIL = "dr.tournier@gmail.com"
 BLOG_DESCRIPTION = "My Personal Website"  # (translatable)
 
 # Nikola is multilingual!
