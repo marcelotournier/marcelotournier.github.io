@@ -1,5 +1,5 @@
 # How to edit/maintain this site:
-1. Install nikola with python pip: `pip install nikola`
+1. Install nikola with python pip: `pip install -r requirements.txt`
 2. Clone this repo
 3. Checkout the `src` branch
 4. Build the site with `nikola build` in the repo root
