@@ -7,133 +7,133 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://marcelotournier.github.io/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/2023/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/archive.html</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/blog/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/blog/hello-world/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/blog/how-to-setup-pytorch-to-run-in-gpus-tpus-or-m1m2-macs/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/blog/rust-in-jupyter-notebooks/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/categories/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/categories/blog/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/categories/code/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/categories/colab/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/categories/jupyter/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/categories/python/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/categories/pytorch/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/categories/rust/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/o-autor/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/2023/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/archive.html</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/blog/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/blog/hello-world/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://marcelotournier.github.io/blog/hello-world/" />
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/blog/how-to-setup-pytorch-to-run-in-gpus-tpus-or-m1m2-macs/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://marcelotournier.github.io/blog/how-to-setup-pytorch-to-run-in-gpus-tpus-or-m1m2-macs/" />
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/blog/rust-in-jupyter-notebooks/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://marcelotournier.github.io/blog/rust-in-jupyter-notebooks/" />
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/categories/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/categories/blog/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/categories/code/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/categories/colab/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/categories/jupyter/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/categories/python/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/categories/pytorch/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/categories/rust/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
  <url>
   <loc>https://marcelotournier.github.io/pt_br/o-autor/</loc>
-  <lastmod>2024-04-11T14:48:00Z</lastmod>
+  <lastmod>2024-09-03T14:33:00Z</lastmod>
  </url>
 </urlset>

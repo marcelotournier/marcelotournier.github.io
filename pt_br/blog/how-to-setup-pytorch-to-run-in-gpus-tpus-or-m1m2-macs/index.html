@@ -114,7 +114,7 @@ bg-dark
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <pre class="code literal-block"><span class="c1"># MIT License</span>
+    <div class="code"><pre class="code literal-block"><span class="c1"># MIT License</span>
 <span class="c1"># Copyright (c) 2022 Marcelo Benedet Tournier</span>
 <span class="c1"># Permission is hereby granted, free of charge, to any person obtaining a copy</span>
 <span class="c1"># of this software and associated documentation files (the "Software"), to deal</span>
@@ -150,52 +150,52 @@ bg-dark
 <span class="c1"># To debug, delete the "--quiet \" line from this cell.</span>
 <span class="c1">#</span>
 <span class="c1"># Change library versions below if needed:</span>
-!TPU_AVAILABLE<span class="o">=</span><span class="k">$(</span>env <span class="p">|</span> grep COLAB_TPU_ADDR <span class="p">|</span> wc -l<span class="k">)</span> <span class="o">&amp;&amp;</span> <span class="se">\</span>
-<span class="nv">CLOUD_TPU_CLIENT_VERSION</span><span class="o">=</span><span class="m">0</span>.10 <span class="o">&amp;&amp;</span> <span class="se">\</span>
-<span class="nv">PYTORCH_VERSION</span><span class="o">=</span><span class="m">1</span>.12.1  <span class="o">&amp;&amp;</span> <span class="se">\</span>
-<span class="nv">TORCH_XLA_VERSION</span><span class="o">=</span><span class="m">1</span>.12  <span class="o">&amp;&amp;</span> <span class="se">\</span>
-<span class="k">if</span> <span class="o">[</span> <span class="nv">$TPU_AVAILABLE</span> <span class="o">=</span> <span class="s2">"1"</span> <span class="o">]</span> <span class="p">;</span><span class="se">\</span>
-<span class="k">then</span> pip install <span class="se">\</span>
-cloud-tpu-client<span class="o">==</span><span class="nv">$CLOUD_TPU_CLIENT_VERSION</span> <span class="se">\</span>
-<span class="nv">torch</span><span class="o">==</span><span class="nv">$PYTORCH_VERSION</span> <span class="se">\</span>
-https://storage.googleapis.com/tpu-pytorch/wheels/colab/torch_xla-<span class="si">${</span><span class="nv">TORCH_XLA_VERSION</span><span class="si">}</span>-cp37-cp37m-linux_x86_64.whl <span class="se">\</span>
---quiet <span class="se">\</span>
+!TPU_AVAILABLE<span class="o">=</span><span class="k">$(</span>env<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>COLAB_TPU_ADDR<span class="w"> </span><span class="p">|</span><span class="w"> </span>wc<span class="w"> </span>-l<span class="k">)</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+<span class="nv">CLOUD_TPU_CLIENT_VERSION</span><span class="o">=</span><span class="m">0</span>.10<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+<span class="nv">PYTORCH_VERSION</span><span class="o">=</span><span class="m">1</span>.12.1<span class="w">  </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+<span class="nv">TORCH_XLA_VERSION</span><span class="o">=</span><span class="m">1</span>.12<span class="w">  </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="nv">$TPU_AVAILABLE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"1"</span><span class="w"> </span><span class="o">]</span><span class="w"> </span><span class="p">;</span><span class="se">\</span>
+<span class="k">then</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span><span class="se">\</span>
+cloud-tpu-client<span class="o">==</span><span class="nv">$CLOUD_TPU_CLIENT_VERSION</span><span class="w"> </span><span class="se">\</span>
+<span class="nv">torch</span><span class="o">==</span><span class="nv">$PYTORCH_VERSION</span><span class="w"> </span><span class="se">\</span>
+https://storage.googleapis.com/tpu-pytorch/wheels/colab/torch_xla-<span class="si">${</span><span class="nv">TORCH_XLA_VERSION</span><span class="si">}</span>-cp37-cp37m-linux_x86_64.whl<span class="w"> </span><span class="se">\</span>
+--quiet<span class="w"> </span><span class="se">\</span>
 <span class="p">;</span><span class="se">\</span>
 <span class="k">fi</span>
 
 
-import torch
-import os
+import<span class="w"> </span>torch
+import<span class="w"> </span>os
 
 <span class="c1"># Verify if a GPU is available and if CUDA is properly installed</span>
-<span class="nv">gpu_available</span> <span class="o">=</span> torch.cuda.is_available<span class="o">()</span>
+<span class="nv">gpu_available</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>torch.cuda.is_available<span class="o">()</span>
 
 <span class="c1"># Check for TPU availability in notebook environment</span>
-<span class="nv">tpu_available</span> <span class="o">=</span> os.environ.get<span class="o">(</span><span class="s1">'COLAB_TPU_ADDR'</span><span class="o">)</span> is not None
+<span class="nv">tpu_available</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>os.environ.get<span class="o">(</span><span class="s1">'COLAB_TPU_ADDR'</span><span class="o">)</span><span class="w"> </span>is<span class="w"> </span>not<span class="w"> </span>None
 
 <span class="c1"># Run our device selection.</span>
 <span class="c1"># Preference is for GPU, then TPU, then CPU:</span>
-<span class="k">if</span> gpu_available:
-    <span class="nv">device</span> <span class="o">=</span> torch.device<span class="o">(</span><span class="s1">'cuda'</span><span class="o">)</span>
+<span class="k">if</span><span class="w"> </span>gpu_available:
+<span class="w">    </span><span class="nv">device</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>torch.device<span class="o">(</span><span class="s1">'cuda'</span><span class="o">)</span>
 
-<span class="k">elif</span> tpu_available: 
-    import torch_xla 
-    import torch_xla.core.xla_model as xm
-    <span class="nv">device</span> <span class="o">=</span> xm.xla_device<span class="o">()</span>
+<span class="k">elif</span><span class="w"> </span>tpu_available:<span class="w"> </span>
+<span class="w">    </span>import<span class="w"> </span>torch_xla<span class="w"> </span>
+<span class="w">    </span>import<span class="w"> </span>torch_xla.core.xla_model<span class="w"> </span>as<span class="w"> </span>xm
+<span class="w">    </span><span class="nv">device</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>xm.xla_device<span class="o">()</span>
 
 <span class="c1"># run this in a M1/M2 mac:</span>
-<span class="k">elif</span> <span class="o">(</span>torch.backends.mps.is_available<span class="o">())</span> <span class="p">&amp;</span> <span class="o">(</span>torch.backends.mps.is_built<span class="o">())</span>:
-    <span class="nv">device</span> <span class="o">=</span> torch.device<span class="o">(</span><span class="s2">"mps"</span><span class="o">)</span>
+<span class="k">elif</span><span class="w"> </span><span class="o">(</span>torch.backends.mps.is_available<span class="o">())</span><span class="w"> </span><span class="p">&amp;</span><span class="w"> </span><span class="o">(</span>torch.backends.mps.is_built<span class="o">())</span>:
+<span class="w">    </span><span class="nv">device</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>torch.device<span class="o">(</span><span class="s2">"mps"</span><span class="o">)</span>
 
 <span class="k">else</span>:
-    <span class="nv">device</span> <span class="o">=</span> torch.device<span class="o">(</span><span class="s1">'cpu'</span><span class="o">)</span>
+<span class="w">    </span><span class="nv">device</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>torch.device<span class="o">(</span><span class="s1">'cpu'</span><span class="o">)</span>
 
-print<span class="o">(</span><span class="s2">"device in use:"</span>, device, <span class="s2">"\n---"</span><span class="o">)</span>
+print<span class="o">(</span><span class="s2">"device in use:"</span>,<span class="w"> </span>device,<span class="w"> </span><span class="s2">"\n---"</span><span class="o">)</span>
 
 <span class="c1"># Print GPU info if it is available:</span>
-<span class="k">if</span> gpu_available:
-    print<span class="o">(</span>os.popen<span class="o">(</span><span class="s2">"nvidia-smi"</span><span class="o">)</span>.read<span class="o">())</span>
-</pre>
+<span class="k">if</span><span class="w"> </span>gpu_available:
+<span class="w">    </span>print<span class="o">(</span>os.popen<span class="o">(</span><span class="s2">"nvidia-smi"</span><span class="o">)</span>.read<span class="o">())</span>
+</pre></div>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
 <li><a class="tag p-category" href="../../categories/code/" rel="tag">code</a></li>
@@ -229,7 +229,8 @@ print<span class="o">(</span><span class="s2">"device in use:"</span>, device, <
     <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
-        </section></article><script>var disqus_shortname="marcelo-tournier";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         <br>© 2024 </center>
+        </section></article><script>var disqus_shortname="marcelo-tournier";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer"><center>Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         <br>© 2024<br>Follow me on <a rel="me" href="https://mastodon.social/@whatsup_doc">Mastodon</a>
+</center>
             
             
         </footer>
@@ -244,4 +245,3 @@ print<span class="o">(</span><span class="s2">"device in use:"</span>, device, <
     </script>
 </body>
 </html>
-
