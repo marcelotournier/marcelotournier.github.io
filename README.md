@@ -10,3 +10,5 @@ WIP
 
 ## Github deployment
 1. Run `nikola github_deploy` to deploy updates
+
+---
